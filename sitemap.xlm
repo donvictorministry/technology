@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DOMAIN/</loc><priority>1.0</priority></url>
+  <url><loc>https://YOUR-DOMAIN/introduction</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/related-work</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/method</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/architecture</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/clel-protocol</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/evaluation</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/discussion</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/field-protocol</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/conclusion</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/references</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-DOMAIN/about-the-author</loc><priority>0.8</priority></url>
+</urlset>
