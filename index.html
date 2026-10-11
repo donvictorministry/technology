@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script>
+(function(){var l=location,p=l.pathname.replace(/[^/]*$/,''),q=new URLSearchParams(l.search).get('dvp');
+if(q!==null){history.replaceState(null,'',p+q+l.hash)}
+window.DVBASE=p;var b=document.createElement('base');b.href=p;document.head.insertBefore(b,document.head.firstChild);
+try{if(localStorage.getItem('dvoff.dark')==='1')document.documentElement.setAttribute('data-dv-theme','dark')}catch(e){}})();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Designing for the Usage Gap: A Zero-Backend Offline-First Architecture and a Convergent Event-Log Protocol for Learning in Low-Connectivity Settings</title>
+<meta name="description" content="A design science study of a zero-backend offline-first architecture and a convergent learner event-log protocol for low-connectivity learning, evaluated by simulation and emulated benchmarks.">
+<meta name="keywords" content="offline-first, progressive web apps, learning analytics, conflict-free replicated data types, digital inclusion, Nigeria">
+<meta name="author" content="Rev. Dr. Chris Johnson">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="google-site-verification" content="">
+<meta name="msvalidate.01" content="">
+<meta name="theme-color" content="#1877f2">
+<meta name="citation_title" content="Designing for the Usage Gap: A Zero-Backend Offline-First Architecture and a Convergent Event-Log Protocol for Learning in Low-Connectivity Settings">
+<meta name="citation_author" content="Surname, Chris Johnson">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Designing for the Usage Gap">
+<meta property="og:description" content="A design science study of a zero-backend offline-first architecture and a convergent learner event-log protocol for low-connectivity learning, evaluated by simulation and emulated benchmarks.">
+<meta property="og:url" content="https://YOUR-DOMAIN/">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://YOUR-DOMAIN/">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Designing for the Usage Gap: A Zero-Backend Offline-First Architecture and a Convergent Event-Log Protocol for Learning in Low-Connectivity Settings","author":{"@type":"Person","name":"Rev. Dr. Chris Johnson"},"inLanguage":"en","keywords":"offline-first, progressive web apps, learning analytics, conflict-free replicated data types, digital inclusion, Nigeria","url":"https://YOUR-DOMAIN/","mainEntityOfPage":"https://YOUR-DOMAIN/"}
+</script>
+</head>
+<body>
+<header class="dvHeader">
+<button type="button" class="dvHBtn" id="dvBtnLeft" aria-label="Open menu" aria-controls="dvLeft" aria-expanded="false"></button>
+<div class="dvHTitle" id="dvTitle">Rev. Dr. Chris Johnson</div>
+<button type="button" class="dvHBtn" id="dvBtnRight" aria-label="Open settings" aria-controls="dvRight" aria-expanded="false"></button>
+</header>
+<div id="dvScrim" class="dvScrim"></div>
+<aside id="dvLeft" class="dvSide dvSideL" aria-label="Menu" aria-hidden="true">
+<div class="dvSideHead"><strong>Menu</strong><button type="button" class="dvHBtn dvXBtn" id="dvCloseLeft" aria-label="Close menu"></button></div>
+<nav id="dvLeftList" aria-label="Paper sections"></nav>
+</aside>
+<aside id="dvRight" class="dvSide dvSideR" aria-label="Settings" aria-hidden="true">
+<div class="dvSideHead"><strong>Settings</strong><button type="button" class="dvHBtn dvXBtn" id="dvCloseRight" aria-label="Close settings"></button></div>
+<div id="dvRightList"></div>
+</aside>
+<main class="dvMain" id="dvMain">
+<article id="dvArticle" class="dvArticle">
+<section>
+<h1>Designing for the Usage Gap: A Zero-Backend Offline-First Architecture and a Convergent Event-Log Protocol for Learning in Low-Connectivity Settings</h1>
+<p class="dvBy">Rev. Dr. Chris Johnson</p>
+<h2>Abstract</h2>
+<p>Learning software and learning analytics usually assume reliable connectivity, yet in Nigeria about 140 million people lived within mobile broadband coverage but did not use mobile internet in 2025 (GSMA, 2026). This paper presents a design science study of two artifacts for learning in such settings: a zero-backend, offline-first progressive web app architecture, and the Convergent Learner Event Log (CLEL), a transport-agnostic protocol for merging learner event records produced on devices that stay offline for long periods. A recent systematic review found no study that formally specified a conflict-resolution protocol for learning analytics event logs under zero connectivity (Febrianty et al., 2026). CLEL addresses that gap by treating the event log as a grow-only set whose derived learner state is a deterministic function of the set. The paper states convergence, idempotence, and no-loss properties and tests them in 3,840 randomized simulation trials with partitions, message loss, duplication, and reordering, and in 20,000 randomized property checks. CLEL converged in every trial without losing a recorded event, whereas a snapshot last-write-wins baseline lost learner attempts in 3,558 of 3,840 trials. An emulated-device benchmark shows that the reference application shell is 12.9 KB compressed, becomes interactive in about 2.1 seconds on an emulated slow 3G connection with a sixfold CPU slowdown, and reloads and opens deep links offline in all test loads. No human participants were involved. The paper closes with a registered protocol for a field evaluation with Nigerian learners, which has not yet been conducted.</p>
+<p><strong>Keywords:</strong> offline-first, progressive web apps, learning analytics, conflict-free replicated data types, digital inclusion, Nigeria</p>
+</section>
+</article>
+</main>
+<div id="dvToast" class="dvToast" role="status" aria-live="polite"></div>
+<script src="app.js" defer></script>
+</body>
+</html>
